@@ -8,7 +8,7 @@ En el curso de Fundamentos de Biodiseño el estudiante será introducido a los m
 - Leonardo Fabrizio Machiavello Díaz. **Coordinador General**
 ><p align="center"> <img src=https://github.com/leomachiavello/FundBio2024-2/blob/main/Fotos%20del%20equipo/leonardo.jpeg width="30%"> </p>
 
-Alumno de Ing. Biomédica con interés en la ingeniería clínica y el diseño industrial. Encargado de organizar al equipo asegurándose de que estén cumpliendo su deber, al igual que estar pendiente de que se cumplan las tareas del proyecto.
+ExAlumno de Ing. Biomédica con interés en la ingeniería clínica y el diseño industrial. Encargado de organizar al equipo asegurándose de que estén cumpliendo su deber, al igual que estar pendiente de que se cumplan las tareas del proyecto.
 
 - Ana Paula Vela Velásquez. **Diseño 3D**
 ><p align="center"> <img src=https://github.com/leomachiavello/FundBio2024-2/blob/main/Fotos%20del%20equipo/anapaula.jpeg width="30%"> </p>
