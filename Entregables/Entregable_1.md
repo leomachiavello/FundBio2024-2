@@ -10,10 +10,10 @@ El Perú es uno de los países con más incidencias de asma, debido a que esta e
 
 ## Estado del arte
 
-### Primer ensayo clínico
+### Primer ensayo clínico:
 Es fundamental realizar un diagnóstico que diferencie el asma grave, descartando las otras condiciones que presentan síntomas similares. Además de identificar los endotipos específicos del paciente como el asma T2 o T2 utilizando biomarcadores como eosinófilos en sangre.[3] Además de esto, para el diagnóstico se recomienda realizar pruebas de función pulmonar como la espirometría y pruebas de provocación bronquial para evaluar la severidad de la obstrucción.
 
-### Segundo ensayo clínico
+### Segundo ensayo clínico:
 La broncoscopia es un procedimiento médico que se usa en el caso de pacientes que padecen asma de difícil control (condición que no responde adecuadamente al tratamiento estándar para el asma. La broncoscopia es útil para identificar comorbilidades, evaluar la inflamación de las vías respiratorias y  optimizar los tratamientos ya realizados.[4]
 Este procedimiento se destaca por su seguridad como técnica diagnóstica aún en los casos de asma grave. Sin embargo, esto no elimina la posibilidad de un broncoespasmo, lo cual es la principal preocupación de un paciente con asma de difícil control.
 
