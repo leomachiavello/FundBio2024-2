@@ -7,17 +7,18 @@ El asma es una enfermedad que a lo largo de los años ha afectado a gran parte d
 El Perú es uno de los países con más incidencias de asma, debido a que esta enfermedad afecta a gran número de su población, según el MINSA para 2024 se registraron 2.359 episodios de asma en el Perú prácticamente duplicando los 1168 episodios registrados en 2023. [2] Sus principales causas serían la contaminación del país y el hecho de que el ambiente peruano es uno de los más húmedos, eliminando factores independientes de cada familia, a pesar de ello el verdadero problema del asma en el Perú y principalmente en las zonas rurales es el diagnóstico. En zonas rurales como pueblos remotos es común la falta de personal y equipo médico debido a la locación y presupuesto, lo que significa un impedimento para el diagnóstico del asma.
 ## Diagrama ishikawa 
 ![image](https://github.com/user-attachments/assets/ad10b347-4e86-4e0b-a8ed-81387858d360)
+
 ## Estado del arte
 
-1er ensayo clínico:
-Es fundamental realizar un diagnóstico que diferencie el asma grave, descartando las otras condiciones que presentan síntomas similares. Además de identificar los endotipos específicos del paciente como el asma T2 o o T2 utilizando biomarcadores como eosinófilos en sangre. Además de esto, para el diagnóstico se recomienda realizar pruebas de función pulmonar como la espirometría y pruebas de provocación bronquial para evaluar la severidad de la obstrucción.
+### Primer ensayo clínico
+Es fundamental realizar un diagnóstico que diferencie el asma grave, descartando las otras condiciones que presentan síntomas similares. Además de identificar los endotipos específicos del paciente como el asma T2 o T2 utilizando biomarcadores como eosinófilos en sangre.[3] Además de esto, para el diagnóstico se recomienda realizar pruebas de función pulmonar como la espirometría y pruebas de provocación bronquial para evaluar la severidad de la obstrucción.
 
-2do ensayo clínico:
-La broncoscopia es un procedimiento médico que se usa en el caso de pacientes que padecen asma de difícil control (condición que no responde adecuadamente al tratamiento estándar para el asma. La broncoscopia es útil para identificar comorbilidades, evaluar la inflamación de las vías respiratorias y  optimizar los tratamientos ya realizados.
+### Segundo ensayo clínico
+La broncoscopia es un procedimiento médico que se usa en el caso de pacientes que padecen asma de difícil control (condición que no responde adecuadamente al tratamiento estándar para el asma. La broncoscopia es útil para identificar comorbilidades, evaluar la inflamación de las vías respiratorias y  optimizar los tratamientos ya realizados.[4]
 Este procedimiento se destaca por su seguridad como técnica diagnóstica aún en los casos de asma grave. Sin embargo, esto no elimina la posibilidad de un broncoespasmo, lo cual es la principal preocupación de un paciente con asma de difícil control.
 
-3er ensayo clínico:
-La pandemia de COVID-19 generó un incremento en el uso de tecnologías para telerrehabilitación en pacientes con EPOC (Enfermedad Pulmonar Obstructiva Crónica). Este estudio revisó la eficacia de la telerehabilitación, destacando su equivalencia con la rehabilitación pulmonar tradicional a la hora de mejorar la capacidad funcional, la autoeficacia, y la salud mental. Se emplearon videoconferencias, aplicaciones y otros métodos digitales, resultando en alta satisfacción del paciente y una opción rentable.
+### Tercer ensayo clínico:
+La pandemia de COVID-19 generó un incremento en el uso de tecnologías para telerrehabilitación en pacientes con EPOC (Enfermedad Pulmonar Obstructiva Crónica).[5] Este estudio revisó la eficacia de la telerehabilitación, destacando su equivalencia con la rehabilitación pulmonar tradicional a la hora de mejorar la capacidad funcional, la autoeficacia, y la salud mental. Se emplearon videoconferencias, aplicaciones y otros métodos digitales, resultando en alta satisfacción del paciente y una opción rentable.
 
 # Fuentes de información
 1. World Health Organization: WHO & World Health Organization: WHO. (2024, 6 mayo). Asma. https://www.who.int/es/news-room/fact-sheets/detail/asthma#:~:text=Los%20s%C3%ADntomas%20del%20asma%20
