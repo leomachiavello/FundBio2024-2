@@ -14,7 +14,10 @@ Dispositivos existentes en el mercado actual relacionados con nuestra problemát
 ![image](https://github.com/user-attachments/assets/0c2530c2-c24c-483c-886b-344eacf40106)
 
 ### Patente de Modelo de Utilidad
+![image](https://github.com/user-attachments/assets/5f0c9665-7e94-4afd-b5f5-3fc1ccf0485f)
+
 ## Requerimientos del proyecto
 ![image](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/Tabla_requerimientos.png?raw=true)
 ## Propuesta de solución
 ![image](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/propuesta_de_solucion.png?raw=true)
+
