@@ -8,4 +8,5 @@ Para  probar  el  prototipo  desarrollado  y  verificar  su  correcto funcionami
 ![image](https://github.com/)
 ### Patentes de Invención:
 ![image](https://github.com/user-attachments/assets/4037d0bf-5cd3-4a9e-8f50-8cf3255b2fca)
-
+![image](https://github.com/user-attachments/assets/0c2530c2-c24c-483c-886b-344eacf40106)
+### Patente de Modelo de Utilidad:
