@@ -1,8 +1,23 @@
 # Estado de arte
 ## Contexto comercial
 Dispositivos existentes en el mercado actual relacionados con nuestra problemática.
-### Espirómetro electrónico portátil
-En  este  trabajo  se  presenta  el  diseño  de  un sistema  de  espirometría  portable  de  bajo  costo  usando  como interfaz de usuario un dispositivo móvil con sistema operativo Android. El sistema de sensado de la capacidad respiratoria está basado en el espirómetro tipo Fleisch, el cual usa un sensor de presión,  proporcionando  mayor durabilidad  del  producto  en comparación  de  los  espirómetros  de  turbina.  El  hardware electrónico,  y la  interfaz  gráfica de  usuario (elaborada  para el sistema operativo Android utilizando el IDE de processing) se describen en detalle. El costo   estimado del dispositivo realizado  es  inferior  a  los  90 USD. El  prototipo elaborado permite  el  fácil  diagnóstico  y  seguimiento  de  enfermedades respiratorias, mejorando así la calidad de vida de los usuarios. 
+### Espirómetro electrónico portátil con visualización en dispositivo móvil
+![image](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/espir%C3%B3metro_port%C3%A1til_m%C3%B3vil.png?raw=true)
+![image](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/espir%C3%B3metro_port%C3%A1til_m%C3%B3vil_2.png?raw=true)
+### Espirómetro de turbina de código abierto para la evaluación de la función respiratoria
+![image](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/espir%C3%B3metro_de_turbina.png?raw=true)
+### Espirómetro digital con aplicación móvil para asmáticos
+![image](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/espir%C3%B3metro_asma.png?raw=true)
+## Lista de requerimientos para el proyecto
+### Funcionales
+- Recibir datos del flujo y volumen del aire del usuario.
+- Diferenciar las enfermedades pulmonares que podría tener el paciente según los datos obtenidos.
+- Determinar las posibles causas de la enfermedad detectada según el contexto del individuo.
+- Almacenar los datos del usuario para generar un historial médico al cual poder acceder en el futuro.
+### No funcionales
+- Portabilidad
+- Replicabilidad
+- Que no sea invasivo
+- Que sea de bajo costo
+- Que tenga una interfaz amigable para el usuario
 
-Para  probar  el  prototipo  desarrollado  y  verificar  su  correcto funcionamiento,   se   realizaron   pruebas   en   9   voluntarios obteniendo mediciones simultáneas con el prototipo realizado y con un espirómetro de mesa comercial de la marca MicroLab™, el  cual  se  usa  como  referencia. Los resultados obtenidos muestran que los valores obtenidos con ambos dispositivos son bastante similares, lo cual valida el correcto funcionamiento del dispositivo desarrollado. 
-![image](https://github.com/)
