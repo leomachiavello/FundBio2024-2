@@ -6,7 +6,10 @@ En  este  trabajo  se  presenta  el  diseño  de  un sistema  de  espirometría 
 
 Para  probar  el  prototipo  desarrollado  y  verificar  su  correcto funcionamiento,   se   realizaron   pruebas   en   9   voluntarios obteniendo mediciones simultáneas con el prototipo realizado y con un espirómetro de mesa comercial de la marca MicroLab™, el  cual  se  usa  como  referencia. Los resultados obtenidos muestran que los valores obtenidos con ambos dispositivos son bastante similares, lo cual valida el correcto funcionamiento del dispositivo desarrollado. 
 ![image](https://github.com/)
+
 ### Patentes de Invención:
+
 ![image](https://github.com/user-attachments/assets/4037d0bf-5cd3-4a9e-8f50-8cf3255b2fca)
+
 ![image](https://github.com/user-attachments/assets/0c2530c2-c24c-483c-886b-344eacf40106)
 ### Patente de Modelo de Utilidad:
