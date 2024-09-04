@@ -17,4 +17,4 @@ Dispositivos existentes en el mercado actual relacionados con nuestra problemát
 ## Requerimientos del proyecto
 ![image](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/Tabla_requerimientos.png?raw=true)
 ## Propuesta de solución
-Espirómetro portable de bajo costo que detecte las principales enfermedades pulmonares (asma, EPOC, neumonía) haciendo uso de sensores (presión) y un microcontrolador para la gestión de datos.
+![image](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/propuesta_de_solucion.png?raw=true)
