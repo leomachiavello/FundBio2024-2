@@ -27,3 +27,6 @@ Dispositivos existentes en el mercado actual relacionados con nuestra problemát
 - Que no sea invasivo
 - Que sea de bajo costo
 - Que tenga una interfaz amigable para el usuario
+
+## Propuesta de solución
+Espirómetro portable de bajo costo que detecte las principales enfermedades pulmonares (asma, EPOC, neumonía) haciendo uso de sensores (presión) y un microcontrolador para la gestión de datos.
