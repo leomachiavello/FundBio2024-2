@@ -6,7 +6,7 @@ El término open hardware proveniente del término “Open” de libre y “Hard
 ## Contexto Nacional
 
 ## Diagrama ishikawa 
-![image](https://github.com/user-attachments/assets/ad10b347-4e86-4e0b-a8ed-81387858d360)
+![image](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/Diagrama_de_Ishikawa.png?raw=true)
 
 ## Estado del arte
 
