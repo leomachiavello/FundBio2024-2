@@ -7,13 +7,22 @@
 - **Año:** 2022
 - **País:** Corea del Sur
 
-La patente describe un "Sistema de Diagnóstico de Espirometría Personal y Portátil". Este dispositivo está diseñado para ofrecer pruebas de espirometría de manera compacta y portátil, permitiendo a los usuarios evaluar su función pulmonar en cualquier lugar. Sus características incluyen un diseño ergonómico para facilitar el uso en el hogar o en movimiento, sensores precisos para medir el flujo y volumen de aire, y la capacidad de almacenar y analizar datos para el diagnóstico de afecciones respiratorias como el asma o la enfermedad pulmonar obstructiva crónica (EPOC). La importancia de esta patente radica en su capacidad para proporcionar una herramienta de diagnóstico accesible y conveniente, lo que puede mejorar la gestión de enfermedades respiratorias y permitir un monitoreo más frecuente y personalizado de la salud pulmonar.
+<div style="display: flex; align-items: center;">
+  <img src="https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/espirometr%C3%ADa_celular.png?raw=true" alt="description" style="width: 135px; margin-left: 25px; margin-right: 50px">
+  <p>La patente describe un "Sistema de Diagnóstico de Espirometría Personal y Portátil". Este dispositivo está diseñado para ofrecer pruebas de espirometría de manera compacta y portátil, permitiendo a los usuarios evaluar su función pulmonar en cualquier lugar. Sus características incluyen un diseño ergonómico para facilitar el uso en el hogar o en movimiento, sensores precisos para medir el flujo y volumen de aire, y la capacidad de almacenar y analizar datos para el diagnóstico de afecciones respiratorias como el asma o la enfermedad pulmonar obstructiva crónica (EPOC). La importancia de esta patente radica en su capacidad para proporcionar una herramienta de diagnóstico accesible y conveniente, lo que puede mejorar la gestión de enfermedades respiratorias y permitir un monitoreo más frecuente y personalizado de la salud pulmonar.</p>
+</div>
+
 ### Métodos de espirometría para diagnosticar la destrucción leve y temprana del flujo aéreo
 - **Número de patente:** [WO2022036172](https://patentscope.wipo.int/search/es/detail.jsf?docId=WO2022036172&_cid=P12-M14B1X-01074-1)
 - **Año:** 2022
 - **País:** Estados Unidos
 
-Esta patente se enfoca en métodos avanzados para diagnosticar obstrucción leve y temprana del flujo aéreo mediante espirometría. Las especificaciones incluyen técnicas mejoradas para medir parámetros como la velocidad máxima de flujo espiratorio (PEF) y el flujo expiratorio forzado en 1 segundo (FEV1). Utiliza algoritmos avanzados para analizar estos datos y detectar patrones sutiles que indican obstrucción antes de que sea evidente con métodos convencionales. Además, incorpora sensores de alta precisión y dispositivos de espirometría que permiten una recolección de datos más detallada y fiable, facilitando una intervención temprana en enfermedades respiratorias como el asma y la EPOC.
+
+<div style="display: flex; align-items: center;">
+  <img src="https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/metodos_espirometr%C3%ADa.png?raw=true" alt="description" style="width: 155px; margin-left: 25px; margin-right: 35px">
+  <p>Esta patente se enfoca en métodos avanzados para diagnosticar obstrucción leve y temprana del flujo aéreo mediante espirometría. Las especificaciones incluyen técnicas mejoradas para medir parámetros como la velocidad máxima de flujo espiratorio (PEF) y el flujo expiratorio forzado en 1 segundo (FEV1). Utiliza algoritmos avanzados para analizar estos datos y detectar patrones sutiles que indican obstrucción antes de que sea evidente con métodos convencionales. Además, incorpora sensores de alta precisión y dispositivos de espirometría que permiten una recolección de datos más detallada y fiable, facilitando una intervención temprana en enfermedades respiratorias como el asma y la EPOC.</p>
+</div>
+
 ### Patente de Modelo de Utilidad
 - **Número de patente:** [ES2843105T3](https://patents.google.com/patent/ES2843105T3/es?oq=ES2843105T3)
 - **Año:** 2021
@@ -21,11 +30,15 @@ Esta patente se enfoca en métodos avanzados para diagnosticar obstrucción leve
 
 La patente describe un dispositivo y método para medir la eficacia del intercambio de gases en los pulmones de manera no invasiva, utilizando muestras de gas respiratorio. El sistema mide la presión parcial de oxígeno (O2) y dióxido de carbono (CO2) durante la respiración y calcula indicadores como la saturación de oxígeno en sangre y el cociente respiratorio.
 
-Características relevantes:
+**Características relevantes:**
 - Medición no invasiva: Evalúa la función respiratoria sin necesidad de extraer sangre.
 - Detección y monitoreo: Puede detectar condiciones respiratorias anómalas, como hipoxemia y EPOC.
 - Multifuncionalidad: Integra sensores para monitorear varios parámetros respiratorios, permitiendo su uso en diferentes pruebas respiratorias.
 - Visualización y Alarma: Incluye una pantalla para mostrar los resultados y un sistema de alarmas para alertar sobre problemas respiratorios.
+<div style="text-align: center;">
+  <img src="https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/patente_3.png?raw=true" alt="description" style="width:400px;">
+</div>
+<br>
 
 # Requerimientos del proyecto
 <div style="text-align: center;">
@@ -60,4 +73,3 @@ Características relevantes:
 
 # Propuesta de solución
 <h3>Espirómetro portable de bajo costo que facilite la diferenciación de las principales enfermedades pulmonares (asma, EPOC, neumonía) haciendo uso de sensores de presión y un microcontrolador para la gestión de datos.
-
