@@ -3,7 +3,7 @@
 
 ## Patentes de Invención
 ### Sistema de diagnóstico de espirometría portátil personal
-- **Número de patente:** [KR1020220167645](https://patentscope.wipo.int/search/es/detail.jsf?docId=KR383841388&_cid=P12-M14AZK-98835-1)
+- **Número de patente:** [KR1020220167645](https://patentscope.wipo.int/search/es/detail.jsf?docId=KR383841388&_cid=P12-M14AZK-98835-1) (1)
 - **Año:** 2022
 - **País:** Corea del Sur
 
@@ -13,7 +13,7 @@
 </div>
 
 ### Métodos de espirometría para diagnosticar la destrucción leve y temprana del flujo aéreo
-- **Número de patente:** [WO2022036172](https://patentscope.wipo.int/search/es/detail.jsf?docId=WO2022036172&_cid=P12-M14B1X-01074-1)
+- **Número de patente:** [WO2022036172](https://patentscope.wipo.int/search/es/detail.jsf?docId=WO2022036172&_cid=P12-M14B1X-01074-1) (2)
 - **Año:** 2022
 - **País:** Estados Unidos
 
@@ -25,7 +25,7 @@
 
 ## Patente de Modelo de Utilidad
 ### Método y dispositivo para mediciones respiratorias utilizando muestras de gas de respiración
-- **Número de patente:** [ES2843105T3](https://patents.google.com/patent/ES2843105T3/es?oq=ES2843105T3)
+- **Número de patente:** [US20220110541A1](https://patents.google.com/patent/US20220110541A1/en?oq=ES2843105T3) (3)
 - **Año:** 2021
 - **País:** España
 
@@ -73,4 +73,12 @@ La patente describe un dispositivo y método para medir la eficacia del intercam
 </div>
 
 # Propuesta de solución
-<h3>Espirómetro portable de bajo costo que facilite la diferenciación de las principales enfermedades pulmonares (asma, EPOC, neumonía) haciendo uso de sensores de presión y un microcontrolador para la gestión de datos.
+<h3>Espirómetro portable de bajo costo que facilite la diferenciación de las principales enfermedades pulmonares (asma, EPOC, neumonía) haciendo uso de sensores de presión y un microcontrolador para la gestión de datos.</h3>
+
+# Fuentes bibliográficas
+
+- (1) 개인용 휴대형 폐활량 진단 시스템. 2022. PERSONAL PORTABLE SPIROMETRY DIAGNOSIS SYSTEM. (Patent No. KO:KR1020220167645). In KO Patent (No. KR1020220167645)
+
+- (2) MÉTHODES DE SPIROMÉTRIE POUR DIAGNOSTIC D'UNE OBSTRUCTION DES VOIES RESPIRATOIRES MODÉRÉE ET PRÉCOCE. 2021. SPIROMETRY METHODS TO DIAGNOSE MILD AND EARLY AIRFLOW OBSTRUCTION. (Patent No. FR:WO2022036172). In FR Patent (No. WO2022036172)
+
+- (3) Methods Of Non-Invasively Determining Blood Oxygen Level And Related Pulmonary Gas Exchange Information. 2021. (Patent No. US:US20220110541A1). In US Patent (No. US20220110541A1).
