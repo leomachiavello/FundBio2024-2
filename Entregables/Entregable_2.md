@@ -23,7 +23,8 @@
   <p>Esta patente se enfoca en métodos avanzados para diagnosticar obstrucción leve y temprana del flujo aéreo mediante espirometría. Las especificaciones incluyen técnicas mejoradas para medir parámetros como la velocidad máxima de flujo espiratorio (PEF) y el flujo expiratorio forzado en 1 segundo (FEV1). Utiliza algoritmos avanzados para analizar estos datos y detectar patrones sutiles que indican obstrucción antes de que sea evidente con métodos convencionales. Además, incorpora sensores de alta precisión y dispositivos de espirometría que permiten una recolección de datos más detallada y fiable, facilitando una intervención temprana en enfermedades respiratorias como el asma y la EPOC.</p>
 </div>
 
-### Patente de Modelo de Utilidad
+## Patente de Modelo de Utilidad
+### Método y dispositivo para mediciones respiratorias utilizando muestras de gas de respiración
 - **Número de patente:** [ES2843105T3](https://patents.google.com/patent/ES2843105T3/es?oq=ES2843105T3)
 - **Año:** 2021
 - **País:** España
