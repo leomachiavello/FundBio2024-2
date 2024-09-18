@@ -1,4 +1,5 @@
 # Problemática
+![asma_estadística](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/asma_estad.png?raw=true)
 # Propuesta de solución
 ## Descripción de la solución
 Espirómetro portable de bajo costo que detecte las principales enfermedades pulmonares (asma, EPOC, neumonía) haciendo uso de sensores de presión, un dispositivo buzzer (para solucionar el problema de la precisión del dispositivo por el uso del usuario) y un microcontrolador para la gestión de datos. Nuestro dispositivo busca directamente solucionar el problema de la deficiencia en el diagnóstico, la precisión y diferenciación de enfermedades respiratorias en zonas de bajos recursos, entregándonos un equipo (espirómetro) accesible para un uso frecuente en zonas de bajos recursos y que cumpla efectivamente con el rol de identificar la patología pulmonar.

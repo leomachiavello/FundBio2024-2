@@ -7,7 +7,7 @@ En el curso de Fundamentos de Biodiseño el estudiante será introducido a los m
 ## 📋 Entregables
 - [Entregable 1](https://github.com/leomachiavello/FundBio2024-2/blob/main/Entregables/Entregable_1.md)
 - [Entregable 2](https://github.com/leomachiavello/FundBio2024-2/blob/main/Entregables/Entregable_2.md)
-- [Entregable 3](https://github.com/leomachiavello/FundBio2024-2/blob/main/Entregables/Entregable_3.md)🧑‍🔧
+- [Entregable 3](https://github.com/leomachiavello/FundBio2024-2/blob/main/Entregables/Entregable_3.md)
 - [Entregable 4](https://github.com/leomachiavello/FundBio2024-2/blob/main/Entregables/Entregable_4.md)🧑‍🔧
 - [Entregable 5](https://github.com/leomachiavello/FundBio2024-2/blob/main/Entregables/Entregable_5.md)🧑‍🔧
 - [Entregable 6](https://github.com/leomachiavello/FundBio2024-2/blob/main/Entregables/Entregable_6.md)🧑‍🔧

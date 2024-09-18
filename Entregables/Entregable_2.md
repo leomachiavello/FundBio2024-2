@@ -1,4 +1,10 @@
 # Estado de arte
+## Contec SP10BT
+El espirómetro Contec SP 10 BT es una herramienta de diagnóstico no invasiva que emplea infrarrojos para evaluar la función pulmonar. Ofrece una amplia gama de mediciones, incluyendo FVC, FEV1, PEF y flujos espiratorios a diferentes porcentajes del FVC. Además, presenta gráficos de flujo-volumen y volumen-tiempo, almacenamiento de datos y función de calibración. Su diseño portátil y fácil uso lo hacen ideal para evaluaciones rutinarias en diversos entornos clínicos. Precio: 900 soles.
+## Contec SP70B
+El Contec SP70B es un espirómetro portátil que evalúa la salud pulmonar de manera fácil y rápida. Utiliza tecnología infrarroja para medir diversos parámetros respiratorios como FVC, FEV1 y PEF. Permite personalizar los resultados según las características del usuario y almacenar hasta 9999 registros. Además, cuenta con conexión Bluetooth para transferir datos y una batería de larga duración. Es ideal para uso clínico y doméstico. Precio: 720 soles.
+## Contec SP90
+El Espirómetro Contec SP90 es un dispositivo portátil de alta precisión diseñado para evaluar la función pulmonar en diversos entornos clínicos. Utilizando un avanzado sensor de presión diferencial, este espirómetro ofrece resultados precisos y una respuesta rápida, ideal para el diagnóstico y la evaluación terapéutica de enfermedades respiratorias como el asma, EPOC, y fibrosis pulmonar. Su diseño compacto y ligero, junto con una pantalla TFT HD y funcionalidades de conectividad avanzadas, hacen del SP90 una herramienta esencial en medicina respiratoria, anestesiología, y más. Precio: 1700
 ## Contexto comercial
 
 ## Patentes de Invención
