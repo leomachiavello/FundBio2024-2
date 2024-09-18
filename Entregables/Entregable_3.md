@@ -11,9 +11,13 @@ Espirómetro portable de bajo costo que detecte las principales enfermedades pul
 ## Beneficios 
 El principal problema que encontramos en la espirometría de bajo costo, es la precisión y la exactitud de los exámenes, debido a que los usuarios no realizan el examen de manera óptima, por lo que la implementación del dispositivo buzzer contribuye en esta situación, generando sonido si es que el usuario está realizando el examen de manera incorrecta (analizando el tiempo y la presión exhalación del usuario); dando como consecuencia, un análisis más preciso.
 - Implementación de buzzer (SFM-20B), el cual emitira una alerta si es que el usuario realiza el examen de manera incorrecta; esto mejorará la precisión del examen
-- El hardware usado para el ensamble del dispositivo tiene un coste accesible, tomando en cuenta las posibilidades de las zonas de bajos recursos del Perú. 
+- El hardware usado para el ensamble del dispositivo tiene un coste accesible, tomando en cuenta las posibilidades de las zonas de bajos recursos del Perú.
+- Su tamaño ayuda a su portabilidad y distribución.
+Su bajo consumo energético busca no crear un inconveniente económico a sus usuarios.
+El prototipo podrá ser fácilmente replicable al contar con información necesaria para poder ser considerado open hardware.
 ## Viabilidad técnica
-- Uso de dispositivos como el sensor de presión, buzzer y una pantalla LCD (MPX210DP, SFM-20B, LCD1622-BMDWH6) 
+- Uso de dispositivos accesibles como el sensor de presión, microcontrolador, buzzer y una pantalla LCD (MPX210DP, SFM-20B, LCD1622-BMDWH6)
+- Conocimiento en softwares de modelado e impresiones en 3D.
 - Utilizando el sensor de presión podremos medir el tiempo para el uso correcto del dispositivo.
 - Conocimiento en Git.
 - Conocimiento en el uso de Arduino.
