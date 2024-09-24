@@ -15,7 +15,7 @@ Este problema afecta a los usuarios en diversos aspectos. La falta de diagnósti
 
 # Propuesta de solución
 ## Descripción de la solución
-Espirómetro portable de bajo costo que detecte las principales enfermedades pulmonares (asma, EPOC, neumonía) haciendo uso de sensores de presión, un dispositivo buzzer (para solucionar el problema de la precisión del dispositivo por el uso del usuario) y un microcontrolador para la gestión de datos. Nuestro dispositivo busca directamente solucionar el problema de la deficiencia en el diagnóstico, la precisión y diferenciación de enfermedades respiratorias en zonas de bajos recursos, entregándonos un equipo (espirómetro) accesible para un uso frecuente en zonas de bajos recursos y que cumpla efectivamente con el rol de identificar la patología pulmonar.
+Espirómetro portable de bajo costo que contribuya a la detección de exámenes correctamente realizados haciendo uso de sensores de presión, un dispositivo buzzer (para ser usado de alerta por el uso correcto o incorrecto por el uso del usuario) y un microcontrolador para la gestión de datos. Nuestro dispositivo busca directamente solucionar el problema de la deficiencia en el diagnóstico, la precisión y diferenciación de enfermedades respiratorias en zonas de bajos recursos, entregándonos un equipo (espirómetro) accesible para un uso frecuente en zonas de bajos recursos y que cumpla efectivamente con el rol de identificar la patología pulmonar.
 ## Características del dispositivo
 - Sensor de presión diferencial que mide el aire que emite la persona al momento de exhalar.
 - Dispositivo buzzer integrado para advertir al paciente cuando esté cometiendo un error en el examen.
@@ -23,8 +23,8 @@ Espirómetro portable de bajo costo que detecte las principales enfermedades pul
 - Portabilidad para una mayor accesibilidad en zonas rurales.
 - Bajo consumo de energía.
 ## Beneficios 
-El principal problema que encontramos en la espirometría de bajo costo, es la precisión y la exactitud de los exámenes, debido a que los usuarios no realizan el examen de manera óptima, por lo que la implementación del dispositivo buzzer contribuye en esta situación, generando sonido si es que el usuario está realizando el examen de manera incorrecta (analizando el tiempo y la presión exhalación del usuario); dando como consecuencia, un análisis más preciso.
-- Implementación de buzzer (SFM-20B), el cual emitira una alerta si es que el usuario realiza el examen de manera incorrecta; esto mejorará la precisión del examen
+El principal problema que encontramos en la espirometría de bajo costo, es la precisión y la exactitud de los exámenes, debido a que los usuarios no realizan el examen de manera óptima, por lo que la implementación del dispositivo buzzer contribuye en esta situación, generando un sonido luego de realizada la prueba para notificar si es que el usuario a relizado el examen de manera óptima (analizando el tiempo, el flujo de aire y el volumen total del aire inhalado y exhalado del examen realizado por el usuario); dando como consecuencia, un análisis diferenciado.
+- Implementación de buzzer (SFM-20B), el cual emitirá distintos tipos de sonido dependiendo de los datos analizados.
 - El hardware usado para el ensamble del dispositivo tiene un coste accesible, tomando en cuenta las posibilidades de las zonas de bajos recursos del Perú.
 - Su tamaño ayuda a su portabilidad y distribución.
 Su bajo consumo energético busca no crear un inconveniente económico a sus usuarios.
@@ -37,7 +37,7 @@ El prototipo podrá ser fácilmente replicable al contar con información necesa
 - Conocimiento en el uso de Arduino.
 # Coherencia
 ## Objetivo general
-Desarrollar un espirómetro portátil de bajo costo que permita detectar de manera eficiente enfermedades respiratorias como el asma, EPOC y neumonía en zonas de bajos recursos en Perú.
+Desarrollar un espirómetro portátil de bajo costo que permita detectar de manera eficiente un examen realizado correctamente respecto a enfermedades respiratorias como el asma, EPOC y neumonía en zonas de bajos recursos en Perú.
 ## Objetivos específicos
 - Implementar sensores de presión en el espirómetro para medir el flujo de aire del paciente.
 - Integrar un microcontrolador para la gestión de los datos obtenidos.
