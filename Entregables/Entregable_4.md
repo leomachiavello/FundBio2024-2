@@ -2,6 +2,7 @@
 # Esquema de funciones
 # Matriz morfológica
 # Tabla de valoración
+![tabla_de_valoración](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/tabla_de_valoracion.png?raw=true)
 # Conclusión
 A partir de una valoración de los parámetros que consideramos más importantes, nos decidimos por el concepto de solución número 3. Los componentes elegidos para este concepto permiten una buena portabilidad para nuestro propósito al igual que una buena eficiencia energética. Lo que quisimos priorizar sobre todo fue la precisión del examen para que el paciente tenga una buena base por la cual guiarse para una posible patología respiratoria.
 # Bocetos del prototipo
