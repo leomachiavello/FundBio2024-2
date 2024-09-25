@@ -2,6 +2,17 @@
 ![caja_negra](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/caja_negra.png?raw=true)
 # Esquema de funciones
 ![esquema_funciones](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/esquema_de_funciones.png?raw=true)
+
+**Regulador** - para distribuir la energía a los diferentes componentes que la necesitan.
+
+**Medir** - el sensor de presión registra y mide la materia (aire) ingresado.
+
+**Procesar** - con el microprocesador realizamos los cálculos correspondientes y se pone en los términos que necesitamos para evaluar si la muestra ha sido óptima.
+
+**Mostrar** - los resultados se muestran en la pantalla (pequeños datos) o mediante el buzzer, de acuerdo al caso. Esto es solo una muestra rápida para saber si el procedimiento se ha realizado correctamente.
+
+**Almacenar** - se guardan los datos para poder visualizarlos después en un dispositivo más complejo y profundizar en el resultado. 
+
 # Matriz morfológica
 ![matriz_morfológica](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/matriz.png?raw=true)
 # Tabla de valoración
@@ -13,3 +24,5 @@ A partir de una valoración de los parámetros que consideramos más importantes
 Este prototipo que planteamos tiene una relativa portabilidad, sin llegar a ser de mano. Es un tamaño ideal para un uso en campañas de salud y para visitas médicas. El formato de caja permite una mejor distribución de los componentes en la carcasa del dispositivo. 
 ## Espirómetro portable de gatillo
 El prototipo con forma de gatillo permite una mayor portabilidad pudiendo usarse de mano. Esta particularidad lo hace perfecto para un uso más amigable, sencillo y rápido en el entorno médico.
+## Espirómetro de cajón compacto
+Al igual que el prototipo de caja, esta forma de dispositivo también nos permite un buen funcionamiento de los componentes elegidos. Esto también le agrega una robustez al producto que será útil en contextos rurales donde el transporte continuo es necesario.
