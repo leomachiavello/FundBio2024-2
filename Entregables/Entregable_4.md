@@ -21,8 +21,11 @@
 A partir de una valoración de los parámetros que consideramos más importantes, nos decidimos por el concepto de solución número 3. Los componentes elegidos para este concepto permiten una buena portabilidad para nuestro propósito al igual que una buena eficiencia energética. Lo que quisimos priorizar sobre todo fue la precisión del examen para que el paciente tenga una buena base por la cual guiarse para una posible patología respiratoria.
 # Bocetos del prototipo
 ## Espirómetro de caja
+![caja](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/prototipo_caja.jpeg?raw=true)
 Este prototipo que planteamos tiene una relativa portabilidad, sin llegar a ser de mano. Es un tamaño ideal para un uso en campañas de salud y para visitas médicas. El formato de caja permite una mejor distribución de los componentes en la carcasa del dispositivo. 
 ## Espirómetro portable de gatillo
+![gatillo](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/prototipo_gatillo.jpeg?raw=true)
 El prototipo con forma de gatillo permite una mayor portabilidad pudiendo usarse de mano. Esta particularidad lo hace perfecto para un uso más amigable, sencillo y rápido en el entorno médico.
 ## Espirómetro de cajón compacto
+![cajon](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/prototipo_cajon.jpeg?raw=true)
 Al igual que el prototipo de caja, esta forma de dispositivo también nos permite un buen funcionamiento de los componentes elegidos. Esto también le agrega una robustez al producto que será útil en contextos rurales donde el transporte continuo es necesario.
