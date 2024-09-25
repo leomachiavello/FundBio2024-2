@@ -1,6 +1,9 @@
 # Caja negra
+![caja_negra](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/caja_negra.png?raw=true)
 # Esquema de funciones
+![esquema_funciones](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/esquema_de_funciones.png?raw=true)
 # Matriz morfológica
+![matriz_morfológica](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/matriz.png?raw=true)
 # Tabla de valoración
 ![tabla_de_valoración](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/tabla_de_valoracion.png?raw=true)
 # Conclusión
