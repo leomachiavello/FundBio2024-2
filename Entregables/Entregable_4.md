@@ -14,9 +14,9 @@
 **Almacenar** - se guardan los datos para poder visualizarlos después en un dispositivo más complejo y profundizar en el resultado. 
 
 # Matriz morfológica
-![matriz_morfológica](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/matriz_2.png?raw=true)
+![matriz_morfológica](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/matriz_3.png?raw=true)
 # Tabla de valoración
-![tabla_de_valoración](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/tabla_de_valoracion.png?raw=true)
+![tabla_de_valoración](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/tabla_de_valoracion_2.png?raw=true)
 # Conclusión
 A partir de una valoración de los parámetros que consideramos más importantes, nos decidimos por el concepto de solución número 3. Los componentes elegidos para este concepto permiten una buena portabilidad para nuestro propósito al igual que una buena eficiencia energética. Lo que quisimos priorizar sobre todo fue la precisión del examen para que el paciente tenga una buena base por la cual guiarse para una posible patología respiratoria.
 # Bocetos del prototipo
