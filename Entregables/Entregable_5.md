@@ -1,8 +1,11 @@
-# Esquema electrónico
+ Esquema electrónico
 Para nuestro esquema hemos hecho uso del programa EasyEDA y su librería de componentes. 
 ![esquema](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/Schematic_FUNBIO_2024-10-08.png?raw=true)
 # Modelado 3D
 Para nuestro modelado 3D hicimos uso de la carcasa empleamos OnShape y modelos de GrabCad.
+![Imagen 1](https://github.com/user-attachments/assets/13a6c190-8ccb-4dca-b2c8-f146b4da622a)
+![Imagen 2](https://github.com/user-attachments/assets/1fe6f6bf-5799-499f-b3fa-e86ffd67bc8d)
+
 
 
 ## Modelos de GrabCad
