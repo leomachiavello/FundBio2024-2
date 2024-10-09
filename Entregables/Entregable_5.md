@@ -9,4 +9,5 @@ Para nuestro modelado 3D hicimos uso de la carcasa empleamos OnShape y modelos d
 - Protoboard https://grabcad.com/library/protoboard-400-pins-1
 - Lector Micro SD 74LVC125A https://grabcad.com/library/microsd-reader-arduino-1
 - Pila 9V https://grabcad.com/library/bateria-9v-1
-- Arduino UNO https://grabcad.com/library/arduino-uno-case-3d-printed-1 
+- Arduino UNO https://grabcad.com/library/arduino-uno-case-3d-printed-1
+- Pantalla OLED https://grabcad.com/library/oled-1-3-128x64-1
