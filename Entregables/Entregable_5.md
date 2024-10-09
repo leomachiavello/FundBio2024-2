@@ -8,7 +8,7 @@ Para nuestro modelado 3D hicimos uso de la carcasa empleamos OnShape y modelos d
 ![Imagen 2](https://github.com/user-attachments/assets/2a9c270b-cbb9-4634-9475-2177bd1949dc)
 ![Imagen 3](https://github.com/user-attachments/assets/40311d2c-16ec-4873-a531-25101af58c9c)
 https://cad.onshape.com/documents/20975b0a696aa9e7d59d5f21/w/6d4684ce93eefdf906dcb84f/e/c7c2fba3a9c54d282fe5f3b3?renderMode=0&uiState=67060c3c962e055e7d546fb0
-
+https://sketchfab.com/3d-models/assembly-1-89f267bfd3ba49a4b8b453b5321a2517/properties
 
 
 ## Modelos de GrabCad
