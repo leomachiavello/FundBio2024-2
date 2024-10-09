@@ -5,8 +5,9 @@ Para nuestro esquema hemos hecho uso del programa EasyEDA y su librería de comp
 Para nuestro modelado 3D hicimos uso de la carcasa empleamos OnShape y modelos de GrabCad.
 
 ![Imagen 1](https://github.com/user-attachments/assets/13a6c190-8ccb-4dca-b2c8-f146b4da622a)
-
-![Imagen 2](https://github.com/user-attachments/assets/1fe6f6bf-5799-499f-b3fa-e86ffd67bc8d)
+![Imagen 2](https://github.com/user-attachments/assets/2a9c270b-cbb9-4634-9475-2177bd1949dc)
+![Imagen 3](https://github.com/user-attachments/assets/40311d2c-16ec-4873-a531-25101af58c9c)
+https://cad.onshape.com/documents/20975b0a696aa9e7d59d5f21/w/6d4684ce93eefdf906dcb84f/e/c7c2fba3a9c54d282fe5f3b3?renderMode=0&uiState=67060c3c962e055e7d546fb0
 
 
 
