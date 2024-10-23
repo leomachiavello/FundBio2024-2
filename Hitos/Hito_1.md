@@ -13,4 +13,5 @@
 ![caja](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/prototipo_caja.jpeg?raw=true)
 ## Diseño esquemático del circuito
 ![esquema](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/Schematic_FUNBIO_2024-10-23.png?raw=true)
-## 
+## Prototipo electrónico
+![prototipo](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/circuito.jpeg?raw=true)
