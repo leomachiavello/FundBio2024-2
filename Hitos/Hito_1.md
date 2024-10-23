@@ -15,3 +15,6 @@
 ![esquema](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/Schematic_FUNBIO_2024-10-23.png?raw=true)
 ## Prototipo electrónico
 ![prototipo](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/circuito.jpeg?raw=true)
+## Referencias
+1. Centro Nacional de Epidemiología, Prevención y Control de Enfermedades, “BOLETÍN EPIDEMIOLÓGICO DEL PERÚ”, 2023.
+2. S. P. de Neumología, “Guía Peruana de EPOC -2016”, 2016.
