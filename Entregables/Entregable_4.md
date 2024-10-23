@@ -15,6 +15,9 @@
 
 # Matriz morfológica
 ![matriz_morfológica](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/matriz_5.png?raw=true)
+- C.S. 1: Rojo
+- C.S. 2: Azul
+- C.S. 3: Verde
 # Tabla de valoración
 ![tabla_de_valoración](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/tabla_de_valoracion_2.png?raw=true)
 # Conclusión
