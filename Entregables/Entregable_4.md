@@ -14,7 +14,7 @@
 **Almacenar** - se guardan los datos para poder visualizarlos después en un dispositivo más complejo y profundizar en el resultado. 
 
 # Matriz morfológica
-![matriz_morfológica](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/matriz_3.png?raw=true)
+![matriz_morfológica](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/matriz_4.png?raw=true)
 # Tabla de valoración
 ![tabla_de_valoración](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/tabla_de_valoracion_2.png?raw=true)
 # Conclusión
