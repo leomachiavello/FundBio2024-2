@@ -1,6 +1,6 @@
 # Lungie
 ## Propuesta de solución
-**Problemática:** Deficiencia en el diagnóstico de enfermedades respiratorias obstructivas en las zonas de escasos recursos en Perú. Aproximadamente el 64% de los diagnósticos en el país son erróneos, lo cual se vuelve un problema alarmante considerando la alta prevalencia de enfermedades respiratorias obstructivas y la escasez de espirómetros, especialmente en el sector público.
+**Problemática:** Deficiencia en el diagnóstico de enfermedades respiratorias obstructivas en las zonas de escasos recursos en Perú. Aproximadamente el 64% de los diagnósticos en el país son erróneos, lo cual se vuelve un problema alarmante considerando la alta prevalencia de enfermedades respiratorias obstructivas y la escasez de espirómetros, especialmente en el sector público [1,2].
 
 **Propuesta de solución:** Espirómetro portable de bajo costo que contribuya a la detección de enfermedades respiratorias obstructivas (EPOC, asma, etc). Para uso exclusivo de un profesional de la salud, puede usarse en diversos ambientes debido a su portabilidad.
 ## Esquema de funciones
