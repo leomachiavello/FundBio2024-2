@@ -15,6 +15,8 @@
 ### Vista explosionada
 ### Planos y vistas de piezas a imprimir
 ![planos](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/Planos_impresion.png?raw=true)
+![cura](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/cura.png?raw=true)
+![tabla](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/tabla_imp.png?raw=true)
 ## Diseño esquemático del circuito
 ![esquema](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/Schematic_FUNBIO_2024-10-23.png?raw=true)
 ## Prototipo electrónico
