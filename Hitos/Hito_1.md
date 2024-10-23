@@ -11,6 +11,10 @@
 ![tabla_de_valoración](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/tabla_de_valoracion_3.png?raw=true)
 ## Boceto final
 ![caja](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/prototipo_caja.jpeg?raw=true)
+## Modelo 3D
+### Vista explosionada
+### Planos y vistas de piezas a imprimir
+![planos](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/Planos_impresion.png?raw=true)
 ## Diseño esquemático del circuito
 ![esquema](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/Schematic_FUNBIO_2024-10-23.png?raw=true)
 ## Prototipo electrónico
