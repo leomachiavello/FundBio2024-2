@@ -38,3 +38,6 @@ void loop() {
 
 }
 ```
+# Diagrama de  flujo de datos (Arduino)
+![DFD](https://github.com/leomachiavello/FundBio2024-2/blob/main/Software/DFD_Arduino.png?raw=true)
+# Reporte de pruebas
