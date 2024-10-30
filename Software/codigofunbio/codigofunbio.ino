@@ -23,9 +23,9 @@ void loop() {
   Serial.println(voltaje, 3);
 
   if (voltaje >= voltajeMax){
-    tone(buzzerPin, 1000);
+    tone(pinBuzzer, 1000);
   } else {
-    noTone(buzzerPin);
+    noTone(pinBuzzer);
   }
 
   delay(1000);
