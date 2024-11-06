@@ -10,7 +10,7 @@ void setup() {
   Serial.begin(9600);
   pinMode(pinBuzzer, OUTPUT);
 
-}
+}4
 
 void loop() {
 
