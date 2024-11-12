@@ -1,4 +1,4 @@
-const int pinSensor = A0;
+const int pinSensor = A1;
 
 float valorSensor = 0;
 float voltaje = 0;
@@ -14,7 +14,7 @@ void loop() {
 
   int valorSensor = analogRead(pinSensor);
   float voltaje = valorSensor * (5.0/1023.0);
-  float voltajeAbs = fabs(voltaje-1.882);
+  float voltajeAbs = fabs(voltaje-1.4);
   
   Serial.print("Valor del sensor de presión: ");
   Serial.print(valorSensor);
