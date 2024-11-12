@@ -12,7 +12,7 @@ En el curso de Fundamentos de Biodiseño el estudiante será introducido a los m
 - [Entregable 5](https://github.com/leomachiavello/FundBio2024-2/blob/main/Entregables/Entregable_5.md)
 - [Entregable 6](https://github.com/leomachiavello/FundBio2024-2/blob/main/Entregables/Entregable_6.md)
 - [Entregable 7](https://github.com/leomachiavello/FundBio2024-2/blob/main/Entregables/Entregable_7.md)
-- [Entregable 8](https://github.com/leomachiavello/FundBio2024-2/blob/main/Entregables/Entregable_8.md)🧑‍🔧
+- [Entregable 8](https://github.com/leomachiavello/FundBio2024-2/blob/main/Entregables/Entregable_8.md)
 - [Entregable 9](https://github.com/leomachiavello/FundBio2024-2/blob/main/Entregables/Entregable_9.md)🧑‍🔧
 ## 👨‍🎓 Integrantes del equipo
 ### Leonardo Fabrizio Machiavello Díaz. **Coordinador General**
