@@ -7,10 +7,12 @@ Nuestra intención con este primer borrador fue la de integrar los principales c
 En este segundo borrador implementamos la pantalla OLED junto a los demás componentes haciendo uso de librerías externas como Adafruit_GFX y Adafruit_SSD1306. En la pantalla OLED se muestran los valores de voltaje.
 ## [Borrador 3](https://github.com/leomachiavello/FundBio2024-2/tree/main/Software/borradores/borrador3)
 En el tercer borrador implementamos un módulo en el código cuya función es la de promediar 10 valores en el lapso de un segundo de las señales amplificadas del sensor. Esto se hizo con el objetivo de reducir la variación de valores que se crea por el amplificador. 
+## [Borrador 4](https://github.com/leomachiavello/FundBio2024-2/tree/main/Software/borradores/borrador4)
+Finalmente en este borrador hemos juntado todo lo previamente mencionado e implementado un cronómetro que se activa al momento que el voltaje sobrepasa cierto límite. También en este código podemos generar un reporte del voltaje máximo y un promedio de los voltajes obtenidos para obtener información sobre la prueba.
 # Hardware
 ## [Amplificador INA126](https://github.com/leomachiavello/FundBio2024-2/blob/main/Hardware/Datasheets/INA126_datasheet.pdf)
 La fórmula de la ganancia de este amplificador en específico es la siguiente: 
-$G=5+\frac{80k\Omega}{R_G}$. Actualmente la resistencia que estamos empleando para la ganancia es de $10k\Omega$ por lo que nuestra ganancia resultante es de 13. Como podemos suponer, esta ganancia es muy pequeña para el rango que emite el sensor, que se encuentra entre los 0 a 25mV. Nuestras opciones de solución son las siguientes:
+$G=5+\frac{80k\Omega}{R_G}$. Actualmente la resistencia que estamos empleando para la ganancia es de $1k\Omega$ por lo que nuestra ganancia resultante es de 85. Aunque esta ganancia no es tan pequeña, tampoco es ideal para nuestro caso ya que el rango de voltajes del sensor se encuentra entre los 0 a 25mV, por lo que lo ideal será emplear una ganancia de 1000 que sea estable. Nuestras opciones de solución son las siguientes:
 ### Usar una resistencia menor 
 Esta solución implicaría una mayor inestabilidad en la señal brindada por el amplificador, por lo que también se tendrían que implementar filtros de ruido usando capacitores y pequeños circuitos RC.
 ### Usar un amplificador extra
