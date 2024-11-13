@@ -16,4 +16,4 @@ $G=5+\frac{80k\Omega}{R_G}$. Actualmente la resistencia que estamos empleando pa
 ### Usar una resistencia menor 
 Esta solución implicaría una mayor inestabilidad en la señal brindada por el amplificador, por lo que también se tendrían que implementar filtros de ruido usando capacitores y pequeños circuitos RC.
 ### Usar un amplificador extra
-Esta solución sería un poco más costosa que la anterior, pero sería más simple. El amplificador que planeamos implementar es el LM358, el cual es económico y simple de usar. Para ajustar la ganancia se hace uso de dos resistencias, siguiendo la siguiente fórmula: $G=1+\frac{R_f}{R_{in}}$.
+Esta solución sería un poco más costosa que la anterior, pero sería más simple. El amplificador que planeamos implementar es el **LM358**, el cual es económico y simple de usar. Para ajustar la ganancia se hace uso de dos resistencias, siguiendo la siguiente fórmula: $G=1+\frac{R_f}{R_{in}}$.
