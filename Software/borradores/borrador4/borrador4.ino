@@ -12,7 +12,7 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
 const int pinSensor = A1;
 const int pinBuzzer = A0;
-const float limiteVoltaje = 1.515;
+const float limiteVoltaje = 0.8;
 unsigned long tiempoInicio = 0;
 unsigned long duracionReporte = 10000;
 unsigned long tiempoTranscurrido = 0;
