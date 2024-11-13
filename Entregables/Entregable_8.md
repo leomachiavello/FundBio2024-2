@@ -31,3 +31,5 @@ Para este semana hemos logrado culminar al 100% nuestro modelo 3D, arreglamos la
 ![3](https://github.com/leomachiavello/FundBio2024-2/blob/main/Hardware/Dise%C3%B1o%20mec%C3%A1nico/Renders/Ensamblado/3.jpeg?raw=true)
 ### Vista inferior
 ![5](https://github.com/leomachiavello/FundBio2024-2/blob/main/Hardware/Dise%C3%B1o%20mec%C3%A1nico/Renders/Ensamblado/5.jpeg?raw=true)
+## [Esquema electrónico](https://github.com/leomachiavello/FundBio2024-2/blob/main/Hardware/Dise%C3%B1o%20electr%C3%B3nico/Esquema_electr%C3%B3nico.pdf)
+Actualizamos el esquema electrónico previo, eliminando el regulador de voltaje que no fue necesario para el proyecto e incluyendo el segundo amplificador LM358.
