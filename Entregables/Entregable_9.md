@@ -40,3 +40,6 @@
     <td></td>
   </tr>
 </table>
+
+# Verificación de diseño (Hardware)
+![image](https://github.com/user-attachments/assets/3b064a3c-771a-42dd-ac06-b30a5acbc2d9)
