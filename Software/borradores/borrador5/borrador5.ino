@@ -1,16 +1,14 @@
-#include <SPI.h>
-#include <Wire.h>
-#include <Adafruit_GFX.h>
-#include <Adafruit_SSD1306.h>
+#include "SSD1306Ascii.h"
+#include "SSD1306AsciiAvrI2c.h"
 #include <SD.h>
 
-#define SCREEN_WIDTH 128
-#define SCREEN_HEIGHT 64
-#define OLED_RESET    -1
-#define SCREEN_ADDRESS 0x3C
+#define I2C_ADDRESS 0x3C
+#define RST_PIN -1
 
-Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
+File dataFile;
+SSD1306AsciiAvrI2c oled;
 
+const int pinSD = 10;
 const int pinSensor = A1;
 const int pinBuzzer = A0;
 const float limiteVoltaje = 2.5;
@@ -24,34 +22,41 @@ float voltajeMaximo = 0;
 float voltajeTotal = 0;
 int contadorVoltajes = 0;
 
+String obtenerNombreArchivo() {
+  int numeroArchivo = 1;
+  String nombreArchivo = "datos_" + String(numeroArchivo) + ".csv";
+
+  // Recorremos los archivos existentes en la tarjeta SD para encontrar el último número usado
+  while (SD.exists(nombreArchivo.c_str())) {
+    numeroArchivo++;  // Incrementamos el número del archivo
+    nombreArchivo = "datos" + String(numeroArchivo) + ".csv";  // Generamos el nuevo nombre de archivo
+  }
+
+  return nombreArchivo;
+}
+
 void mostrarReporte(float maxVoltaje, float promedioVoltaje) {
-  display.clearDisplay();
-  display.setTextSize(2);
-  display.setTextColor(SSD1306_WHITE);
-  display.setCursor(10, 0);
-  display.print(F("Reporte"));
-  
-  display.setTextSize(1);
-  display.setCursor(10, 30);
-  display.print(F("Max: "));
-  display.print(maxVoltaje, 3);
-  display.print(F(" V"));
 
-  display.setCursor(10, 45);
-  display.print(F("Prom: "));
-  display.print(promedioVoltaje, 3);
-  display.print(F(" V"));
+  oled.setFont(Arial14);
+  oled.clear();
+  oled.println("Reporte:");
 
-  display.display();
+  oled.print("Max: ");
+  oled.print(maxVoltaje, 3);
+  oled.println(" V");
+
+  oled.print("Prom: ");
+  oled.print(promedioVoltaje, 3);
+  oled.print(" V");
 }
 
 void mostrarLungie() {
-  display.clearDisplay();
-  display.setTextSize(2.5);
-  display.setTextColor(SSD1306_WHITE);
-  display.setCursor(26, 18);
-  display.print(F("LUNGIE"));
-  display.display();
+
+  oled.clear();
+  oled.setFont(Arial_bold_14);
+  oled.println(" ");
+  oled.print("        LUNGIE");
+
 }
 
 int getStableReading(int A1) {
@@ -64,18 +69,48 @@ int getStableReading(int A1) {
 }
 
 void setup() {
+
   Serial.begin(9600);
-  pinMode(pinBuzzer, OUTPUT);
-  if(!display.begin(SSD1306_SWITCHCAPVCC, SCREEN_ADDRESS)) {
-    Serial.println(F("SSD1306 allocation failed"));
-    for(;;);
+  #if RST_PIN >= 0
+    oled.begin(&Adafruit128x64, I2C_ADDRESS, RST_PIN);
+  #else // RST_PIN >= 0
+    oled.begin(&Adafruit128x64, I2C_ADDRESS);
+  #endif // RST_PIN >= 0
+
+  oled.clear();
+  oled.setFont(Arial14);
+  oled.print("Iniciando SD...");
+  delay(1000);
+
+  if (!SD.begin(pinSD)) {
+    oled.clear();
+    oled.print("Error tarjeta SD.");
+    while (1); // Detener si no se detecta la tarjeta
+  }
+  oled.clear();
+  oled.print("Tarjeta SD OK.");
+  delay(1000);
+
+  String nombreArchivo = obtenerNombreArchivo();
+
+  dataFile = SD.open(nombreArchivo.c_str(), FILE_WRITE);
+  if (dataFile) {
+    dataFile.println("Tiempo (s);Voltaje (V)");  // Cabecera
+    dataFile.close();
+    oled.clear();
+    oled.print("Tabla de datos creada.");
+    delay(1000);
+  } else {
+    oled.clear();
+    oled.print("Error creando archivo.");
+    while (1); // Detener si no se puede crear el archivo
   }
 
   mostrarLungie();
 }
 
 void loop() {
-
+  
   int promedio = getStableReading(A1);
   float voltajeProm = promedio * (5.0/1023.0);
 
@@ -84,7 +119,7 @@ void loop() {
   Serial.print(" - Voltaje: ");
   Serial.println(voltajeProm, 3);
 
- if (voltajeProm > limiteVoltaje) {
+  if (voltajeProm > limiteVoltaje) {
     if (!cronometroActivo) {
       // Inicia el cronómetro si aún no está activo
       cronometroActivo = true;
@@ -101,18 +136,19 @@ void loop() {
     // Calcula el tiempo transcurrido en segundos
     tiempoTranscurrido = (millis() - tiempoInicio) / 1000;
 
+    if(dataFile){
+      dataFile.print(tiempoTranscurrido);
+      dataFile.print(";");
+      dataFile.println(voltajeProm, 3);
+      dataFile.close();
+    }
+
     // Actualiza la pantalla OLED con el cronómetro
-    display.clearDisplay();
-    display.setTextSize(2.5);
-    display.setTextColor(SSD1306_WHITE);
-    display.setCursor(26, 0);
-    display.print(F("LUNGIE"));
-    display.setTextSize(1);
-    display.setCursor(30, 40);  // Ajusta la posición del cronómetro
-    display.print("Tiempo: ");
-    display.print(tiempoTranscurrido);
-    display.print(" s");
-    display.display();
+    oled.clear();
+    oled.setFont(Arial14);
+    oled.print("Tiempo: ");
+    oled.print(tiempoTranscurrido);
+    oled.print(" s");
   } else {
     if (cronometroActivo) {
       // Detiene el cronómetro cuando el voltaje baja del límite
