@@ -25,4 +25,7 @@ Nuestro proyecto únicamente necesitaba de impresión 3D, ya que lo único neces
 Al recibir nuestra primera impresión, nos dimos cuenta de errores respecto a las dimensiones de los soportes y huecos para tornillos, los cuales se encontraban desfasados.
 Tomando nota de estos errores, hicimos los cambios en el modelado y volvimos a imprimir una segunda versión de la carcasa, la cual finalmente pudo complementarse correctamente con los componentes.
 ### Diagrama de flujo
-### Esquema electrónico 
+### Esquema electrónico
+A diferencia de nuestro esquema electrónico del [Hito 1](https://github.com/leomachiavello/FundBio2024-2/blob/main/Hitos/Hito_1.md), en este prototipo hemos eliminado el regulador de voltaje, ya que ninguno de nuestros componentes lo necesitaba.
+También hemos agregado una segunda etapa de amplificación de la señal del sensor de presión haciendo uso de un segundo amplificador LM348.
+![esquema](https://github.com/leomachiavello/FundBio2024-2/blob/main/Hitos/Hito%202/Im%C3%A1genes%20Hito%202/esquema_electr%C3%B3nico.png?raw=true)
