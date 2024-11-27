@@ -15,11 +15,14 @@ Funciona en tres simples pasos:
 ### Boceto inicial
 Al inicio del proyecto planteamos un boceto que nos sirvió de guía durante el resto del desarrollo.
 Como podrán ver a continuación, este borrador inicial se asemeja mucho a como terminó nuestro prototipo actual.
-(agregar boceto)
+![boceto](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/prototipo_caja.jpeg?raw=true)
 ### Modelado 3D
 El siguiente paso en nuestro objetivo fue realizar el modelado 3D.
 Gracias al software OneShape y las librerías de GrabCad pudimos realizar nuestro modelado 3D, el cual después de pasar diversas revisiones por parte de los docentes, recibió el visto bueno y fue mandado a imprimir.
-(agregar imágenes del modelado)
+- Vista isométrica sin la tapa:
+![sin_tapa](https://github.com/leomachiavello/FundBio2024-2/blob/main/Hardware/Dise%C3%B1o%20mec%C3%A1nico/Renders/Ensamblado/1.jpeg?raw=true)
+- Vista isométrica con la tapa:
+![con_tapa](https://github.com/leomachiavello/FundBio2024-2/blob/main/Hardware/Dise%C3%B1o%20mec%C3%A1nico/Renders/Ensamblado/2.jpeg?raw=true)
 ### Manufactura digital
 Nuestro proyecto únicamente necesitaba de impresión 3D, ya que lo único necesario era una carcasa y soportes para los componentes.
 Al recibir nuestra primera impresión, nos dimos cuenta de errores respecto a las dimensiones de los soportes y huecos para tornillos, los cuales se encontraban desfasados.
