@@ -98,8 +98,6 @@ void setup() {
   oled.print("Tarjeta SD OK.");
   delay(1000);
 
-  String nombreArchivo = obtenerNombreArchivo();
-
   String nombreFlujoTiempo = obtenerNombreArchivo("flujo_tiempo_");
   flujoTiempoFile = SD.open(nombreFlujoTiempo.c_str(), FILE_WRITE);
   if (flujoTiempoFile) {
