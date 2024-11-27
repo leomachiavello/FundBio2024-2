@@ -26,7 +26,7 @@
 #### Tabla de impresión
 ![tabla](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/tabla_imp.png?raw=true)
 ## Diseño esquemático del circuito
-![esquema](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/Schematic_FUNBIO_2024-10-23.png?raw=true)
+![diseño esquematico](https://github.com/user-attachments/assets/2d764492-c252-4328-b13d-b1fefdc88c72)
 ## Prototipo electrónico
 ![prototipo](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/circuito.jpeg?raw=true)
 ## Referencias
