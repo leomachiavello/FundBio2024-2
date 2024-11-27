@@ -45,7 +45,9 @@ void loop() {
 ## Vista explosionada
 ![vista_exp](https://github.com/leomachiavello/FundBio2024-2/blob/main/Hardware/vista_exp.jpg?raw=true)
 ## Renderizados
-![base y tapa](https://github.com/user-attachments/assets/2566c11d-d3d8-4a38-adb5-2313db9bebd8)
+![image](https://github.com/user-attachments/assets/25c6c06d-54be-4c62-a089-2695a0ff0e17)
+![image](https://github.com/user-attachments/assets/7854dbc8-a803-49bf-b712-d4e266df2a06)
+![image](https://github.com/user-attachments/assets/ccaad79c-acd3-42af-a650-2df78da70c42)
 
 # Diagrama de  flujo de datos (Arduino)
 ![DFD](https://github.com/leomachiavello/FundBio2024-2/blob/main/Software/DFD_Arduino.png?raw=true)
