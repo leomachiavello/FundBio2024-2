@@ -40,6 +40,8 @@ void loop() {
   delay(1000);
 
 }
+# Diagrama de flujo (Arduino)
+![Diagrama de flujo datos](https://github.com/user-attachments/assets/03669abb-cc05-4dae-80cd-62f969e2b264)
 
 # Reporte de pruebas
 ![tabla](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/tabla_de_funciones.png?raw=true)
