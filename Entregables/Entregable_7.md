@@ -2,7 +2,7 @@
 ![Esquema Final](https://github.com/user-attachments/assets/bcffc749-1599-42ce-967e-c1c1894fa787)
 
 # Ejecución del código Arduino 
-
+Código usado en las pruebas para el sensor de presión. A partir de ello podemos transformar la presión ejercida a voltaje:
 const int pinSensor1 = A0;
 const int pinSensor2 = A1;
 
