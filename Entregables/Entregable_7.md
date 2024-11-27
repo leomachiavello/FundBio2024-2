@@ -1,7 +1,3 @@
-# Hardware 
-![image](https://github.com/user-attachments/assets/9de2a79b-1d61-4d1f-a3f4-c5d2d0efa6d2)
-
-
 # Esquema Electrónico
 ![Esquema Final](https://github.com/user-attachments/assets/bcffc749-1599-42ce-967e-c1c1894fa787)
 
