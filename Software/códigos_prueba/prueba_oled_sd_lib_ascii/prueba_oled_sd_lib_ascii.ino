@@ -38,6 +38,16 @@ Serial.begin(9600);
   }
   oled.clear();
   oled.print("Tarjeta SD OK.");
+
+  File archivo = SD.open("datos.csv", FILE_WRITE);
+  if (archivo) {
+    archivo.println("Este es un archivo nuevo.");  // Escribir en el archivo
+    archivo.close();  // Es importante cerrar el archivo después de escribir
+  } else {
+    Serial.println("Error al abrir o crear el archivo.");
+}
+
+
 }
 //------------------------------------------------------------------------------
 void loop() {}

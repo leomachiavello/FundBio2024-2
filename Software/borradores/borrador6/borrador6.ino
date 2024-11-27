@@ -185,6 +185,7 @@ void loop() {
       oled.print("Tiempo: ");
       oled.print(tiempoTranscurrido / 1000.0);
       oled.print(" s");
+      Serial.print(voltajeProm);
     }
 
   } else {

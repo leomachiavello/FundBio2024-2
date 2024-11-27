@@ -1,6 +1,8 @@
 #include <SPI.h>
 #include <SD.h>
 
+File archivo;
+
 const int chipSelect = 10; // Pin CS conectado al pin 10 del Arduino
 
 void setup() {
@@ -25,7 +27,7 @@ void loop() {
 
 void crearArchivo(String nombreArchivo) {
   // Abrir o crear el archivo
-  File archivo = SD.open(nombreArchivo.c_str(), FILE_WRITE);
+  archivo = SD.open(nombreArchivo.c_str(), FILE_WRITE);
 
   if (archivo) {
     Serial.print("Creando archivo: ");

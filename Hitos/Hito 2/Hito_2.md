@@ -27,6 +27,7 @@ Gracias al software OneShape y las librerías de GrabCad pudimos realizar nuestr
 Nuestro proyecto únicamente necesitaba de impresión 3D, ya que lo único necesario era una carcasa y soportes para los componentes.
 Al recibir nuestra primera impresión, nos dimos cuenta de errores respecto a las dimensiones de los soportes y huecos para tornillos, los cuales se encontraban desfasados.
 Tomando nota de estos errores, hicimos los cambios en el modelado y volvimos a imprimir una segunda versión de la carcasa, la cual finalmente pudo complementarse correctamente con los componentes.
+- Borrador inicial
 ![primera_impresión](https://github.com/leomachiavello/FundBio2024-2/blob/main/Hardware/Dise%C3%B1o%20mec%C3%A1nico/Impresiones/Primer_modelo_borrador.png?raw=true)
 ### Diagrama de flujo
 Haciendo uso de las librerías correspondientes y las ecuaciones físicas para el cambio de voltaje a flujo hicimos nuestro diagrama de flujo final a partir del cual escribimos nuestro [borrador final del código](https://github.com/leomachiavello/FundBio2024-2/blob/main/Software/borradores/borrador6/borrador6.ino).
