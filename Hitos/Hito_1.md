@@ -13,9 +13,17 @@
 ![caja](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/prototipo_caja.jpeg?raw=true)
 ## Modelo 3D
 ### Vista explosionada
+![vista_exp](https://github.com/leomachiavello/FundBio2024-2/blob/main/Hardware/Dise%C3%B1o%20mec%C3%A1nico/vista_exp.jpg?raw=true)
 ### Planos y vistas de piezas a imprimir
-![planos](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/Planos_impresion.png?raw=true)
+#### Planos
+- [Base](https://github.com/leomachiavello/FundBio2024-2/blob/main/Hardware/Dise%C3%B1o%20mec%C3%A1nico/Planos%20Hito%201/Base%20Plano.pdf) 
+- [Tapa](https://github.com/leomachiavello/FundBio2024-2/blob/main/Hardware/Dise%C3%B1o%20mec%C3%A1nico/Planos%20Hito%201/Tapa%20Plano.pdf)
+- [Soporte Buzzer](https://github.com/leomachiavello/FundBio2024-2/blob/main/Hardware/Dise%C3%B1o%20mec%C3%A1nico/Planos%20Hito%201/Soporte%20Buzzer%20Plano.pdf)
+- [Soporte Protoboard](https://github.com/leomachiavello/FundBio2024-2/blob/main/Hardware/Dise%C3%B1o%20mec%C3%A1nico/Planos%20Hito%201/Soporte%20Protoboard%20Plano.pdf)
+- [Tapa batería](https://github.com/leomachiavello/FundBio2024-2/blob/main/Hardware/Dise%C3%B1o%20mec%C3%A1nico/Planos%20Hito%201/Tapa%20Bater%C3%ADa.pdf)
+#### Impresión CURA
 ![cura](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/cura.png?raw=true)
+#### Tabla de impresión
 ![tabla](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/tabla_imp.png?raw=true)
 ## Diseño esquemático del circuito
 ![esquema](https://github.com/leomachiavello/FundBio2024-2/blob/main/Im%C3%A1genes/Schematic_FUNBIO_2024-10-23.png?raw=true)
