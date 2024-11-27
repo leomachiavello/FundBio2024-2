@@ -40,7 +40,7 @@
 | **Requerimiento de Diseño**                                        | **Resultado del Test**                                                                                           |
 |--------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
 | El dispositivo sumado al sistema de ajuste debe pesar máximo 300 gramos. | En suma de todos los componentes electrónicos el dispositivo cuenta con un peso de 260 gramos.                  |
-| Debe tener una autonomía de 2 horas aproximadamente.               | Con una batería de 9 voltios, se estima una duración aproximada de 5 horas tomando en cuenta el consumo de los elementos utilizados. |
+| Debe tener una autonomía de 2 horas aproximadamente.               | Con una batería de 9 voltios, se estima una duración aproximada de 10 horas tomando en cuenta el consumo de los elementos utilizados y el tiempo en que el dispositivo no es utilizado en cilos de 32 minutos (2 de encendido, 30 de apagado). |
 | Debe ser simple de usar para el usuario                            | El dispositivo cuenta con solo un switch de encendido y apagado.                                                |
 | Se debe seleccionar un sistema con boquilla desechable para que evitar contaminación en el dispositivo. | El sistema cuenta con una serie de boquillas desechables que permiten evitar cualquier tipo de contaminación.    |
 | El dispositivo de sonido buzzer proyecta un sonido a una frecuencia mayor o menor rango al señalizado por el Arduino Uno. | El dispositivo buzzer se activa a señal del Arduino Uno.                                                        |
