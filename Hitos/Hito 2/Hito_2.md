@@ -42,4 +42,5 @@ A lo largo de nuestro desarrollo del proyecto nos encontramos con varios percanc
 - **Amplificadores:** Ambos amplificadores, el de instrumentación (INA126) y el secundario (LM348) nos han dado bastantes problemas durante el desarrollo del proyecto. El INA126 presentaba una gran cantidad de ruido de señal que no permitía una correcta toma de datos del espirómetro, mientras que el LM348 necesitaba de más voltaje del que es capaz nuestro microcontrolador. 
 ## Referencias
 [1] S. P. de Neumología, “Guía Peruana de EPOC - 2016”, 2016.
+
 [2] Centro Nacional de Epidemiología, Prevención y Control de Enfermedades, “BOLETÍN EPIDEMIOLÓGICO DEL PERÚ”, 2023.
