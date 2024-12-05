@@ -6,16 +6,15 @@
 #define I2C_ADDRESS 0x3C
 #define RST_PIN -1
 
-File flujoTiempoFile;
-File flujoVolumenFile;
+File dataFile;
 SSD1306AsciiAvrI2c oled;
 
 const int pinSD = 10;
-const int pinSensor = A1;
-const int pinBuzzer = A0;
+const int pinSensor = A0;
+const int pinBuzzer = A1;
 const int sensibilidadSensor = 5;
 const int factorCalib = 1;
-const float limiteVoltaje = 2.5;
+const float limiteVoltaje = 3;
 unsigned long tiempoInicio = 0;
 unsigned long duracionReporte = 10000;
 unsigned long tiempoTranscurrido = 0;
@@ -27,16 +26,19 @@ float flujoMaximo = 0; // PEF
 float volumenFEV1 = 0; // FEV1
 float volumenTotal = 0; // FVC
 
-unsigned long ultimoTiempoOLED = 0; 
+unsigned long ultimoTiempoOLED = 0;  
 const unsigned long intervaloOLED = 1000; 
 
-String obtenerNombreArchivo(String baseNombre) {
-  int numeroArchivo = 1;
-  String nombreArchivo = baseNombre + String(numeroArchivo) + ".csv";
+String nombreArchivo;
 
+String obtenerNombreArchivo() {
+  int numeroArchivo = 1;
+  String nombreArchivo = "datos_" + String(numeroArchivo) + ".csv";
+
+  // Recorremos los archivos existentes en la tarjeta SD para encontrar el último número usado
   while (SD.exists(nombreArchivo.c_str())) {
-    numeroArchivo++;
-    nombreArchivo = baseNombre + String(numeroArchivo) + ".csv";
+    numeroArchivo++;  // Incrementamos el número del archivo
+    nombreArchivo = "datos" + String(numeroArchivo) + ".csv";  // Generamos el nuevo nombre de archivo
   }
 
   return nombreArchivo;
@@ -67,10 +69,10 @@ void mostrarLungie() {
   oled.print("        LUNGIE");
 }
 
-int getStableReading(int A1) {
+int getStableReading(int A0) {
   long sum = 0;
   for (int i = 0; i < 10; i++) {
-    sum += analogRead(A1);
+    sum += analogRead(A0);
     delay(10);
   }
   return sum / 10;
@@ -98,45 +100,35 @@ void setup() {
   oled.print("Tarjeta SD OK.");
   delay(1000);
 
-  String nombreFlujoTiempo = obtenerNombreArchivo("flujo_tiempo_");
-  flujoTiempoFile = SD.open(nombreFlujoTiempo.c_str(), FILE_WRITE);
-  if (flujoTiempoFile) {
-    flujoTiempoFile.println("Tiempo (s);Flujo (L/s)");
-    flujoTiempoFile.close();
-    oled.clear();
-    oled.print("Archivo tiempo OK.");
-    delay(1000);
-  } else {
-    oled.clear();
-    oled.print("Error archivo tiempo.");
-    while (1);
-  }
+  nombreArchivo = obtenerNombreArchivo();
 
-  String nombreFlujoVolumen = obtenerNombreArchivo("flujo_volumen_");
-  flujoVolumenFile = SD.open(nombreFlujoVolumen.c_str(), FILE_WRITE);
-  if (flujoVolumenFile) {
-    flujoVolumenFile.println("Volumen (L);Flujo (L/s)");
-    flujoVolumenFile.close();
+  dataFile = SD.open(nombreArchivo.c_str(), FILE_WRITE);
+  if (dataFile) {
+    dataFile.println("Tiempo (s);Flujo(L/s);Volumen(L)");  // Cabecera
+    dataFile.close();
     oled.clear();
-    oled.print("Archivo volumen OK.");
+    oled.print("Tabla de datos creada.");
     delay(1000);
   } else {
     oled.clear();
-    oled.print("Error archivo volumen.");
-    while (1);
+    oled.print("Error creando archivo.");
+    while (1); // Detener si no se puede crear el archivo
   }
 
   mostrarLungie();
+  delay(5000);
 }
 
 void loop() {
-  int promedio = getStableReading(A1);
+  int promedio = getStableReading(A0);
   float voltajeProm = promedio * (5.0 / 1023.0);
   float presionProm = voltajeProm / (5 * sensibilidadSensor);
   float flujoProm = factorCalib * sqrt(presionProm); // Flujo en L/s
 
   Serial.print("Flujo: ");
   Serial.println(flujoProm, 3);
+  Serial.print("Voltaje: ");
+  Serial.println(voltajeProm, 3);
 
   if (voltajeProm > limiteVoltaje) {
     if (!cronometroActivo) {
@@ -162,20 +154,14 @@ void loop() {
       volumenFEV1 += flujoProm * (1.0 / 1000.0);
     }
 
-    flujoTiempoFile = SD.open(obtenerNombreArchivo("flujo_tiempo_").c_str(), FILE_WRITE);
-    if (flujoTiempoFile) {
-      flujoTiempoFile.print(tiempoTranscurrido / 1000.0);
-      flujoTiempoFile.print(";");
-      flujoTiempoFile.println(flujoProm, 3);
-      flujoTiempoFile.close();
-    }
-
-      flujoVolumenFile = SD.open(obtenerNombreArchivo("flujo_volumen_").c_str(), FILE_WRITE);
-    if (flujoVolumenFile) {
-      flujoVolumenFile.print(volumenTotal, 3);
-      flujoVolumenFile.print(";");
-      flujoVolumenFile.println(flujoProm, 3);
-      flujoVolumenFile.close();
+    dataFile = SD.open(nombreArchivo.c_str(), FILE_WRITE);
+    if (dataFile) {
+      dataFile.print(tiempoTranscurrido / 1000.0);
+      dataFile.print(";");
+      dataFile.print(flujoProm, 3);
+      dataFile.print(";");
+      dataFile.println(volumenTotal, 3);
+      dataFile.close();
     }
 
     if (millis() - ultimoTiempoOLED >= intervaloOLED) {
@@ -185,7 +171,6 @@ void loop() {
       oled.print("Tiempo: ");
       oled.print(tiempoTranscurrido / 1000.0);
       oled.print(" s");
-      Serial.print(voltajeProm);
     }
 
   } else {
