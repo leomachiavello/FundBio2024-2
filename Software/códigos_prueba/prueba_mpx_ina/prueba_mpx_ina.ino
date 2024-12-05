@@ -21,6 +21,6 @@ void loop() {
   Serial.print("Voltaje: ");
   Serial.println(voltajeAbs, 3);
 
-  delay(10);
+  delay(1000);
 
 }
